@@ -2,8 +2,6 @@
 using namespace std;
 
 
-vector<int> 
-
 int main() {
     int n;
     cin >> n;

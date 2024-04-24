@@ -16,14 +16,28 @@ int maxAmongThree(int a, int b, int c){
     return c;
 }
 
+int minAmongThree(int a, int b, int c){
+    if(a<b) {
+        if(a<c){
+            return a;
+        }
+    } 
+    if(b<a) {
+        if(b<c) {
+            return b;
+        }
+    }
+    return c;
+}
+
 
 int main() {
     int a1, a2, a3;
     cin >> a1 >> a2 >> a3;
 
     cout << "Numbers Are: " << a1 << " " << a2 << " " << a3 << endl;
-
-    cout << "Maximum -> " << maxAmongThree(a1, a2, a3);
+    cout << "Maximum -> " << maxAmongThree(a1, a2, a3) << endl;
+    cout << "Minimum -> " << minAmongThree(a1, a2, a3) << endl;
 
     return 0;
 }

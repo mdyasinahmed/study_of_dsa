@@ -9,17 +9,20 @@ bool isEven(int x){
 }
 
 
+void checkNumber(int N) {
+    if(isEven(N)){
+        cout << N << " is Even." << endl;
+    } else {
+        cout << N << " is Odd." << endl;
+    }
+}
 
 
 int main() {
     int n;
     cin >> n;
 
-    if(isEven(n)){
-        cout << "Even";
-    } else {
-        cout << "Odd";
-    }
+    checkNumber(n);
 
     return 0;
 }

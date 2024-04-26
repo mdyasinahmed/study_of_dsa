@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/study_of_dsa/array/practice",
-      "program": "d:/study_of_dsa/array/practice/build/Debug/outDebug",
+      "cwd": "d:/study_of_dsa/function",
+      "program": "d:/study_of_dsa/function/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

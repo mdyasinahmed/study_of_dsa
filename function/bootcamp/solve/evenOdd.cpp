@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
+void message(){
+    cout << "YOUR PROGRAM STARTS FROM HERE:\n\n";
+}
+
 bool isEven(int x){
     if(x&1) {
         return false;
@@ -17,8 +22,14 @@ void checkNumber(int N) {
     }
 }
 
+int isDivisible(){
+    
+}
+
 
 int main() {
+    message();
+    cout << "Enter A Number: ";
     int n;
     cin >> n;
 

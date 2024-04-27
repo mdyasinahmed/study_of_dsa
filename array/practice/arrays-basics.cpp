@@ -49,9 +49,29 @@ int main() {
     for(char c : vowels){
         cout << c << " ";
     } cout << endl;
-    cout << "Ends of For-each Loop.\n\n\n";
+    cout << "Ends of For-each LOOP.\n\n\n";
 
 
+    // TRAVERSING ARRAY THROUGH WHILE LOOP
+    cout << "While LOOP: " << endl;
+    int arrSize; 
+    cout << "Number You Want to Store: ";
+    cin >> arrSize;
+    int Numbers[arrSize];
+
+    cout << "Enter Non-zero Numbers: ";
+    int idx = 0;
+    while(idx < arrSize){
+        cin >> Numbers[idx];
+        idx++;
+    }
+
+    int idx2 = 0;
+    while(idx2 < arrSize){
+        cout << Numbers[idx2] << " ";
+        idx2++;
+    } cout << endl;
+    cout << "Ends of While LOOP.\n\n\n";
 
     return 0;
 }

@@ -19,6 +19,8 @@ int main() {
 
     // TRAVERSING ARRAY THROUGH LOOPS
     cout << "\nTRAVERSING ARRAY THROUGH LOOPS" << endl;
+
+    // TRAVERSING ARRAY THROUGH FOR LOOP
     cout << "For LOOP: " << endl;
 
     int arraySize;
@@ -35,9 +37,19 @@ int main() {
     } cout << endl;
     cout << "Ends of For Loop.\n\n\n";
 
-    cout << "For-each LOOP: " << endl;
-    char
 
+    // TRAVERSING ARRAY THROUGH FOR-EACH LOOP
+    cout << "For-each LOOP: " << endl;
+    char vowels[5];
+    cout << "Enter Vowels: ";
+    for(char &c : vowels){
+        cin >> c;
+    }
+
+    for(char c : vowels){
+        cout << c << " ";
+    } cout << endl;
+    cout << "Ends of For-each Loop.\n\n\n";
 
 
 

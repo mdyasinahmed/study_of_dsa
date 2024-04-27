@@ -17,6 +17,29 @@ int main() {
     int length = size/sizeof(a[0]);
     cout << "Length is: " << length << endl;
 
+    // TRAVERSING ARRAY THROUGH LOOPS
+    cout << "\nTRAVERSING ARRAY THROUGH LOOPS" << endl;
+    cout << "For LOOP: " << endl;
+
+    int arraySize;
+    cout << "Enter Array Size: ";
+    cin >> arraySize;
+    int array[arraySize];
+
+    for(int index=0; index<arraySize; index++) {
+        cin >> array[index];
+    }
+
+    for(int index=0; index<arraySize; index++) {
+        cout << array[index] << " ";
+    } cout << endl;
+    cout << "Ends of For Loop.\n\n\n";
+
+    cout << "For-each LOOP: " << endl;
+    char
+
+
+
 
     return 0;
 }

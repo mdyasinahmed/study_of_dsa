@@ -52,9 +52,12 @@ int main() {
     std::cout << "Stack after additional inputs:" << std::endl;
     temp = s;  // Refresh the temporary stack again to display current contents
     while (!temp.empty()) {
-        std::cout << temp.top() << std::endl;
+        std::cout << temp.top()<< std::endl;
         temp.pop();
     }
+
+    // std::cout << temp.top()-1<< std::endl;
+
 
     return 0;
 }
